@@ -1,0 +1,92 @@
+@import "../../../styles/variables";
+
+
+.menu {
+  display: block;
+
+  padding: 20px 10px;
+
+  max-width: 350px;
+  height: auto;
+
+  top: 78px;
+  right: 0;
+
+  position: absolute;
+
+  background-color: $white-color;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 0 6px;
+
+  animation: fadeIn 0.4s forwards;
+}
+
+.menu__method {
+  padding: 10px;
+}
+
+.menu__link {
+  display: block;
+
+  @include setTextStyle($font-bold, 18px, 120%);
+  color: $text-color;
+  text-decoration: none;
+
+  width: 100%;
+  text-align: left;
+
+  background-color: transparent;
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+  padding: 10px;
+
+  transition: all 0.15s ease;
+}
+
+.menu__link.active,
+.menu__link:hover {
+  color: #fff;
+
+  background-color: rgb(2, 2, 2);
+
+  transition: all 0.15s ease;
+}
+
+
+@keyframes fadeIn {
+  from {
+    transform: translate(100%);
+  }
+
+  to {
+    transform: translate(0%);
+  }
+}
+
+
+.menuClosed {
+  display: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media(max-width:$mobile-menu-visible) {
+
+  .mobileMenu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+}
+
+@media(max-width:430px) {
+
+  .menu {
+    max-width: 100%;
+  }
+}

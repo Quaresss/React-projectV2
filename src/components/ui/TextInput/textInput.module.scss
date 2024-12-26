@@ -1,0 +1,76 @@
+@import "../../../styles/variables";
+
+.search {
+  position: relative;
+
+  min-width: $input-min-width;
+  width: $input-max-width;
+
+  &__input,
+  &__input::placeholder {
+    @include setTextStyle(400, 18px, 140%);
+  }
+
+  &__input {
+    background-color: $main-color-white;
+    color: $text-color;
+
+    height: 49px;
+    width: 100%;
+
+    border-radius: 8px;
+    border: none;
+    border: 2px solid transparent;
+
+    padding: 11.5px 55px 12.5px 46px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__input::placeholder {
+    color: #9e9e9e;
+  }
+
+  &__input:focus {
+    outline: none;
+    border: 2px solid rgba(255, 116, 116, 0.5647058824);
+  }
+
+  &__inputIcon {
+    position: absolute;
+
+    left: 16px;
+    top: 15px;
+
+    path {
+      fill: #ff7474;
+    }
+  }
+
+  &__clearBtn {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+
+    width: 35px;
+    height: 35px;
+
+    background-color: transparent;
+  }
+
+  &__clearIcon {
+    width: 35px;
+    height: 35px;
+
+    path {
+      fill: #ff747490;
+    }
+  }
+}
+
+@media(max-width:555px) {
+  .search {
+    width: 100%;
+  }
+}

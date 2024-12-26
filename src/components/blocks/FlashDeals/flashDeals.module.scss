@@ -1,0 +1,30 @@
+@import "../../../styles/variables";
+
+.TtileItems {
+
+  &__title {
+    @include setTextStyle($font-bold, 43px, 112%);
+    color: $main-color-gray;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+  }
+}
+
+.discountBlock {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(357px, 1fr));
+  justify-items: center;
+
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media(max-width:450px) {
+  .discountBlock {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}

@@ -1,0 +1,53 @@
+.map {
+  position: relative;
+
+  max-width: 856px;
+  min-height: 390px;
+
+  border-radius: 15px;
+
+  padding: 20px 0;
+}
+
+.placemark {
+  position: absolute;
+  top: 40.55%;
+  left: 48.4%;
+  z-index: 20;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.placemark.active {
+  transition: all 0.3s ease;
+  transform: translateY(-15px);
+}
+
+.placemark__icon {
+
+  transition: all 0.3s ease;
+
+  path {
+    fill: #f75900;
+  }
+
+  width: 32px;
+  height: 40px;
+}
+
+.placemark__icon.active {
+
+  path {
+    fill: #757575;
+
+    transition: all 0.3s ease;
+  }
+}
+
+.placemark__preloader {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}

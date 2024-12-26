@@ -1,0 +1,47 @@
+@import "../../../../styles/variables";
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  @include setTextStyle(700, 18px, 100%);
+
+  padding: 13.5px 24px;
+
+  border: none;
+  border-radius: $border-radius-8;
+
+  box-shadow: 0px 5px 10px rgba(8, 8, 8, 0.26);
+  
+
+  background: $white-color;
+  background: rgba(104, 103, 103, 0.26);
+  background-clip: text;
+  text-fill-color: transparent;
+
+  transition: all $transition-long ease;
+
+  &:hover {
+    transform: translateY(1px);
+    transition: transform $transition-short ease;
+  }
+
+  &:hover &__icon path {
+    fill: $base-color;
+
+    transition: all $transition-long ease;
+  }
+
+  &:hover &__name {
+    background: rgb(0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  &__icon {
+    transition: all $transition-long ease;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../../../styles/variables";
+
+.deliveryTab {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+
+  @include setTextStyle(700, 18px, 100%);
+  color: #757575;
+
+  padding: 10px 24px;
+
+  background-color: transparent;
+
+  cursor: pointer;
+  outline: none;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.deliveryTab__btnName {}
+
+.deliveryTab__btnIcon {
+  width: 23px;
+  height: 18px;
+
+
+  path {
+    fill: #757575;
+  }
+}
+
+.deliveryTab_active {
+  background-color: rgba(241, 114, 40, 0.1);
+  color: $base-color;
+  transition: all 50ms;
+}
+
+.deliveryTab_active svg path {
+  fill: $base-color;
+}

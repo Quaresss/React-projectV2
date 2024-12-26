@@ -1,0 +1,27 @@
+@import "../../../../styles/variables";
+
+.orderButton {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  @include setTextStyle(900, 18px, 100%);
+  color: $white-color;
+  text-align: center;
+  text-transform: uppercase;
+
+  max-width: 407px;
+  height: 60px;
+
+  padding: 21px 112px;
+
+  background-color: black;
+  border-radius: $border-radius-8;
+  background-size: 200%;
+
+  transition: all $transition-long ease;
+
+  
+}

@@ -1,0 +1,27 @@
+@import "../../../../styles/variables";
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  @include setTextStyle(700, 18px, 100%);
+  color: $white-color;
+
+  padding: 21px 48px;
+
+  max-height: 60px;
+
+  background: linear-gradient(95.71deg, #000000 -39.64%, #111111 135.31%);
+  border-radius: $border-radius-8;
+  mix-blend-mode: darken;
+
+  transition: all $transition-short ease;
+
+  &:hover {
+    box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+
+    transition: all $transition-short ease;
+  }
+}
