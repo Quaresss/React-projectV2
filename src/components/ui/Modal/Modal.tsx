@@ -22,7 +22,7 @@ export const Modal = forwardRef<HTMLDivElement, ModalProps>(
               <p className={style.popup__name}>
                 Заказ № {orderNumber} создан из ресторана «{name}».
               </p>
-              <p className={style.popup__name}>user: {email}</p>
+              <p className={style.popup__name}>Пользователь: {email}</p>
             </div>
 
             <div className={style.popup__btns}>

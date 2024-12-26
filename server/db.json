@@ -9,8 +9,8 @@
       "phone_number": "(472) 443-2272",
 
       "address": {
-        "street_addr": "Politekhnicheskaya Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Гончарова",
+        "city": "Ульяновск",
         "country": "Russia",
         "house": "29АИ",
         "latitude": 60.00848488418119,
@@ -56,8 +56,8 @@
       "phone_number": "(361) 351-8315 x2463",
       "address": {
         "house": "37",
-        "street_addr": "Matrosa Zheleznyaka Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Красноармейская",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.996641098320616,
         "longitude": 30.310119756150584
@@ -102,8 +102,8 @@
       "phone_number": "(847) 439-7119 x014",
       "address": {
         "house": "3Б",
-        "street_addr": "2nd Murinskiy Avenue",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Спасская",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 60.00204853867346,
         "longitude": 30.331706172686342
@@ -149,8 +149,8 @@
       "phone_number": "1-748-684-5124",
       "address": {
         "house": "1",
-        "street_addr": "Mira Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Брестская",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.91026197874759,
         "longitude": 30.350260173905216
@@ -195,8 +195,8 @@
       "phone_number": "263-949-9355 x209",
       "address": {
         "house": "9",
-        "street_addr": "Chehova Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Локомотивная",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.89909148920797,
         "longitude": 30.28278088781597
@@ -241,8 +241,8 @@
       "phone_number": "1-941-706-8734 x80801",
       "address": {
         "house": "21",
-        "street_addr": "Kurskaya Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Профсоюзная",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.89605420164614,
         "longitude": 30.420334817151748
@@ -287,8 +287,8 @@
       "phone_number": "586.823.5792 x98742",
       "address": {
         "house": ", 7Б",
-        "street_addr": "Partizanskaya Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Федерации",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.94450916474497,
         "longitude": 30.42768832909737
@@ -333,8 +333,8 @@
       "phone_number": "1-271-853-3135 x04153",
       "address": {
         "house": "1АШ",
-        "street_addr": "Khimicheskiy Lane",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Шолмова",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.8881605509532,
         "longitude": 30.28789787909819
@@ -379,8 +379,8 @@
       "phone_number": "1-231-854-2578 x483",
       "address": {
         "house": "1",
-        "street_addr": "Mira Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Металлистов",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.95907081547236,
         "longitude": 30.312995784191564
@@ -425,8 +425,8 @@
       "phone_number": "756.673.4835 x0592",
       "address": {
         "house": "9",
-        "street_addr": "Chehova Street",
-        "city": "Saint Petersburg",
+        "street_addr": "Улица Плеханова",
+        "city": "Ульяновск",
         "country": "Russia",
         "latitude": 59.93757677133212,
         "longitude": 30.353006937238973

@@ -8,7 +8,7 @@ import {
   isLoadedSelector,
   restaurantListSelector,
   setListOfOperatingStatus,
-  setPlacemarks,
+
 } from '../../../store/slices/restaurants/slice';
 import {
   categorySelector,
@@ -72,7 +72,7 @@ export const FeaturedRestaurants: FC<FeaturedRestaurantsProps> = ({ classNames, 
 
   useEffect(() => {
     if (isLoaded) {
-      dispatch(setPlacemarks());
+      
       dispatch(setListOfOperatingStatus());
     }
   }, [isLoaded]);

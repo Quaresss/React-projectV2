@@ -1,7 +1,6 @@
 import { PayloadAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 import { RootStore } from '../..';
-import { getBalloon } from '../../../utils/getBalloon';
 import { fetchRestaurantsData } from '../../utils/fetchRestaurantsData';
 import { MyAsyncThunkConfig, Restaurant, Status, getExtraReducers } from '../../utils/getExtraReducers';
 import { FiltersForRestaurants } from '../../utils/getFilterForRestaurants';
@@ -37,35 +36,7 @@ const restaurantsSlice = createSlice({
     setLoaded(state, action: PayloadAction<boolean>) {
       state.isLoaded = action.payload;
     },
-    setPlacemarks(state) {
-      state.placemarks = state.list.map((item) => {
-        const {
-          address: { city, street_addr },
-          backgroundId,
-          id,
-          logo_photos,
-          name,
-          
-        } = item;
-
-        return {
-        
-          id,
-          properties: {
-            balloonContent: getBalloon({
-              backgroundId,
-              city,
-              id,             
-              logo_photos,             
-              name,
-              street_addr,
-            }),
-            id,
-          },
-          type: 'Feature',
-        };
-      });
-    },
+  
   },
 });
 
@@ -76,5 +47,5 @@ export const statusSelector = (state: RootStore) => state.restaurants.status;
 export const placemarkSelector = (state: RootStore) => state.restaurants.placemarks;
 export const listOfOperatingStatusSelector = (state: RootStore) => state.restaurants.listOfOperatingStatus;
 
-export const { setListOfOperatingStatus, setLoaded, setPlacemarks } = restaurantsSlice.actions;
+export const { setListOfOperatingStatus, setLoaded} = restaurantsSlice.actions;
 export default restaurantsSlice.reducer;
