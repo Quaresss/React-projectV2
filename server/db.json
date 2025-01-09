@@ -372,7 +372,7 @@
     },
     {
       "id": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "name": "Бургер Arena",
+      "name": "Burger Arena",
       "deliveryTime": 80,
       "minSumOrder": 13,
       "imageSrc": "/images/food/647577.jpg",
@@ -2449,7 +2449,7 @@
       "price": 4,
       "rating": 1,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-15T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Smoky Apple Cheddar Turkey Бургерs with Spicy Yogurt Sauce"
@@ -2475,7 +2475,7 @@
       "price": 4,
       "rating": 2,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-15T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Savory Cheese-Stuffed Turkey Мясоballs"
@@ -2504,7 +2504,7 @@
       "price": 4,
       "rating": 3,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2024-11-27T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Smoky Bacon Cheddar Бургер with Spicy Chipotle Aioli Sauce"
@@ -2536,7 +2536,7 @@
       "price": 4,
       "rating": 4,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-16T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Mediterranean-Style Cod with Tomato-Olive-Chorizo Sauce and Creamy Mashed Картошкаes"
@@ -2562,7 +2562,7 @@
       "price": 4,
       "rating": 5,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-12T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Refreshing Watermelon Салат with Feta, Walnut & Nigella Seeds"
@@ -2588,7 +2588,7 @@
       "price": 3.88,
       "rating": 1,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-06T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Crispy Oven-Baked Chicken"
@@ -2611,7 +2611,7 @@
       "price": 4,
       "rating": 2,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2024-11-28T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Fresh Tomato Лапша with Zesty Lemon-Infused Olive Oil"
@@ -2637,7 +2637,7 @@
       "price": 1.99,
       "rating": 3,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2024-11-25T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Creamy Cheesy Chicken and Rice Casserole"
@@ -2651,7 +2651,7 @@
       "price": 3,
       "rating": 4,
       "restaurantId": "28d1abb8-f79f-4fd7-bb8d-09b5dd6af441",
-      "restaurantName": "Бургер Arena",
+      "restaurantName": "Burger Arena",
       "salePeriodEnd": "2025-04-09T21:00:00.000Z",
       "salePeriodStart": "2024-11-18T21:00:00.000Z",
       "title": "Fluffy Buttered Pull-Apart Bread"
