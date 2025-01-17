@@ -40,7 +40,7 @@
 - React и TypeScript (для разработки интерфейса).
 - Redux Toolkit (для управления состоянием приложения).
 - React Router (для маршрутизации).
-- Axios и Fetch (для работы с сервером).
+- Axios (для работы с сервером).
 - json-server (для создания тестового REST API и имитации backend-части).
 - React Hook Form (для управления формами).
 - SCSS-Modules (для стилизации).
